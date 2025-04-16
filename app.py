@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load model
-model = joblib.load("fare_prediction_model.pkl")
+model = joblib.load("model_lr.pkl")
 
 # Page config
 st.set_page_config(page_title="NYC Taxi Fare Predictor 🚖", page_icon="🚕", layout="centered")
